@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+form{
+    background-color: whitesmoke;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    width: 70%;
+    margin: 20px;
+        
+}
+
+
+
+fieldset{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    margin: 20px;
+}
+
+legend{
+    text-align: right;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px 0;
+}
+
+label{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    font-size: 13px;
+}
+
+
+input{
+    width: 100%;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+.prompts{
+    width: 100%;
+    display: flex;
+    gap: 0 10px;
+}
+
+.prompts a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+footer{
+    font-size: 11px;
+    color: white;
+    font-family: monospace;
+}
+
+@media (max-width: 620px){
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+form{
+    width: 90%;
+}
+
+fieldset{
+    width: 90%;
+}
+
+}
